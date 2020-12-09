@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`New user component NewUser snapshot 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Button))
+    color="primary"
+    onClick={[Function]}
+    variant="outlined"
+  >
+    Add new user
+  </WithStyles(ForwardRef(Button))>
+  <WithStyles(ForwardRef(Dialog))
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(ForwardRef(DialogTitle))>
+      Add data for new user
+    </WithStyles(ForwardRef(DialogTitle))>
+    <WithStyles(ForwardRef(DialogContent))>
+      <form
+        className="makeStyles-form-1"
+        onSubmit={[Function]}
+      >
+        <WithStyles(ForwardRef(TextField))
+          label="First name"
+          name="firstName"
+          required={true}
+        />
+        <WithStyles(ForwardRef(TextField))
+          label="Last name"
+          name="lastName"
+          required={true}
+        />
+        <WithStyles(ForwardRef(TextField))
+          label="Group"
+          name="group"
+        />
+        <WithStyles(ForwardRef(Button))
+          type="submit"
+          variant="outlined"
+        >
+          Send
+        </WithStyles(ForwardRef(Button))>
+      </form>
+    </WithStyles(ForwardRef(DialogContent))>
+  </WithStyles(ForwardRef(Dialog))>
+</Fragment>
+`;

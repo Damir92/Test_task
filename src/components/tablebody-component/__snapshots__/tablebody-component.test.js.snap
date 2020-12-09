@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableBody component TableBodyComponent snapshot 1`] = `
+<tbody>
+  <tr
+    className="makeStyles-row-1"
+    key="1-0"
+  >
+    <td
+      className="makeStyles-cell-2"
+      key="firstName"
+    >
+      userName-1
+    </td>
+    <td
+      className="makeStyles-cell-2"
+      key="lastName"
+    >
+      userLastName-1
+    </td>
+    <td
+      className="makeStyles-cell-2"
+      key="group"
+    />
+  </tr>
+  <tr
+    className="makeStyles-row-1"
+    key="2-1"
+  >
+    <td
+      className="makeStyles-cell-2"
+      key="firstName"
+    >
+      userName-2
+    </td>
+    <td
+      className="makeStyles-cell-2"
+      key="lastName"
+    >
+      userLastName-2
+    </td>
+    <td
+      className="makeStyles-cell-2"
+      key="group"
+    >
+      user
+    </td>
+  </tr>
+</tbody>
+`;

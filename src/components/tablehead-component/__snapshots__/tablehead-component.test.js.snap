@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableHead component TableHeadComponent snapshot 1`] = `
+<WithStyles(ForwardRef(TableHead))>
+  <WithStyles(ForwardRef(TableRow))>
+    <WithStyles(ForwardRef(TableCell))
+      align="center"
+      key="firstName"
+      padding="none"
+    >
+      <WithStyles(ForwardRef(TableSortLabel))
+        active={false}
+        direction="asc"
+        onClick={[Function]}
+      >
+        First name
+      </WithStyles(ForwardRef(TableSortLabel))>
+    </WithStyles(ForwardRef(TableCell))>
+    <WithStyles(ForwardRef(TableCell))
+      align="center"
+      key="lastName"
+      padding="none"
+    >
+      <WithStyles(ForwardRef(TableSortLabel))
+        active={false}
+        direction="asc"
+        onClick={[Function]}
+      >
+        Last name
+      </WithStyles(ForwardRef(TableSortLabel))>
+    </WithStyles(ForwardRef(TableCell))>
+    <WithStyles(ForwardRef(TableCell))
+      align="center"
+      key="group"
+      padding="none"
+    >
+      <WithStyles(ForwardRef(TableSortLabel))
+        active={false}
+        direction="asc"
+        onClick={[Function]}
+      >
+        Group
+      </WithStyles(ForwardRef(TableSortLabel))>
+    </WithStyles(ForwardRef(TableCell))>
+  </WithStyles(ForwardRef(TableRow))>
+</WithStyles(ForwardRef(TableHead))>
+`;

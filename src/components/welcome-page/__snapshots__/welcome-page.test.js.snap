@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WelcomePage component WelcomePage snapshot 1`] = `
+<Fragment>
+  <WithStyles(CssBaseline) />
+  <Styled(MuiBox)
+    className="makeStyles-box-1"
+    component="div"
+  >
+    <WithStyles(ForwardRef(Link))
+      className="makeStyles-link-2"
+      component="button"
+      onClick={[Function]}
+    >
+      Show list
+    </WithStyles(ForwardRef(Link))>
+  </Styled(MuiBox)>
+</Fragment>
+`;

@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Users select component UsersSelect snapshot 1`] = `
+<WithStyles(ForwardRef(FormControl))
+  className="makeStyles-formControl-1"
+>
+  <WithStyles(ForwardRef(InputLabel))
+    id="demo-simple-select-label"
+  >
+    Group
+  </WithStyles(ForwardRef(InputLabel))>
+  <WithStyles(ForwardRef(Select))
+    id="demo-simple-select"
+    labelId="demo-simple-select-label"
+    onChange={[Function]}
+    value=""
+  >
+    <WithStyles(ForwardRef(MenuItem))
+      value=""
+    >
+      None
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="user"
+      name="group"
+      value="user"
+    >
+      user
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="admin"
+      name="group"
+      value="admin"
+    >
+      admin
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="director"
+      name="group"
+      value="director"
+    >
+      director
+    </WithStyles(ForwardRef(MenuItem))>
+  </WithStyles(ForwardRef(Select))>
+</WithStyles(ForwardRef(FormControl))>
+`;
